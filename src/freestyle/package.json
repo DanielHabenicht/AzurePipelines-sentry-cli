@@ -27,20 +27,20 @@
   },
   "homepage": "https://github.com/DanielHabenicht/AzurePipelines-SemanticRelease#readme",
   "dependencies": {
-    "azure-pipelines-task-lib": "^2.8.0",
-    "semantic-release": "^15.13.24"
+    "@sentry/cli": "^1.49.0",
+    "azure-pipelines-task-lib": "^2.9.3"
   },
   "devDependencies": {
     "@types/chai": "4.2.2",
     "@types/mocha": "5.2.7",
-    "@types/node": "12.7.5",
+    "@types/node": "13.5.0",
     "@types/q": "1.5.2",
-    "@types/shelljs": "0.8.5",
+    "@types/shelljs": "0.8.6",
     "chai": "4.2.0",
     "env-cmd": "10.0.1",
     "mocha": "6.2.0",
     "nodemon": "1.19.2",
-    "ts-node": "8.3.0",
-    "typescript": "3.6.3"
+    "ts-node": "8.6.2",
+    "typescript": "3.7.5"
   }
 }
