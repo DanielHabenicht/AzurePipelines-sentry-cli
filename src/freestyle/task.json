@@ -26,6 +26,11 @@
             "name": "generic",
             "displayName": "Generic Credentials",
             "isExpanded": false
+        },
+        {
+            "name": "advanced",
+            "displayName": "Advanced",
+            "isExpanded": false
         }
     ],
     "inputs": [
@@ -45,16 +50,11 @@
             "groupName": "generic"
         },
         {
-            "name": "configType",
-            "type": "radio",
-            "label": "Configuration Type",
-            "defaultValue": "filePath",
-            "required": false,
-            "helpMarkDown": "Arguments passed to the shell script",
-            "options": {
-                "filePath": "File Path",
-                "inline": "Inline"
-            }
+            "name": "command",
+            "type": "string",
+            "label": "Sentry CLI Command",
+            "required": true,
+            "helpMarkDown": "Arguments passed to the CLI"
         },
         {
             "name": "cwd",

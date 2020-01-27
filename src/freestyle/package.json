@@ -6,7 +6,8 @@
   "scripts": {
     "start": "env-cmd nodemon --inspect",
     "build": "tsc && cd .. && tfx extension create --manifest-globs vss-extension.json",
-    "test": "tsc && mocha tests/_suite.js"
+    "test": "tsc && mocha tests/_suite.js",
+    "sentry": " sentry-cli"
   },
   "repository": {
     "type": "git",
