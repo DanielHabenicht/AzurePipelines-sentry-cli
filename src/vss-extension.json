@@ -1,0 +1,60 @@
+{
+    "manifestVersion": 1,
+    "id": "sentry-cli",
+    "name": "Sentry CLI",
+    "version": "0.0.0",
+    "publisher": "danielhabenicht",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "galleryFlags": [
+        "Preview"
+    ],
+    "public": true,
+    "description": "Sentry CLI in one task.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"
+    },
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "links": {
+        "getstarted": {
+            "uri": "https://github.com/DanielHabenicht/AzurePipelines-sentry-cli/wiki"
+        },
+        "support": {
+            "uri": "https://github.com/DanielHabenicht/AzurePipelines-sentry-cli/issues/new"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/DanielHabenicht/AzurePipelines-sentry-cli"
+    },
+    "files": [
+        {
+            "path": "freestyle"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "tasks",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "freestyle"
+            }
+        }
+    ]
+}

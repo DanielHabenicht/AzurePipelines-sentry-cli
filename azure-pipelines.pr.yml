@@ -1,0 +1,16 @@
+trigger: none
+pr:
+  branches:
+    include:
+      - master
+
+pool:
+    vmImage: "windows-latest"
+
+steps:
+- script: |
+    npm install
+  displayName: "Install"
+- script: |
+    npm run package
+  displayName: "Build"

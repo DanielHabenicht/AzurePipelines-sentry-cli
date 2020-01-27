@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "node",
+      "request": "launch",
+      "args": ["${workspaceRoot}/src/freestyle/index.ts"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "envFile": "${workspaceRoot}/src/freestyle/.env",
+      //   "sourceMaps": true,
+      "cwd": "${workspaceRoot}/src/freestyle",
+      "protocol": "inspector",
+      "env": { "TS_NODE_FILES": "true" }
+    }
+  ]
+}
