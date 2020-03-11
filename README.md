@@ -3,27 +3,21 @@
 
 # Sentry CLI Task for Azure Pipelines
 
-> This is under development and may not work as expected. Please do not use for production till 1.0 release.
-
-This is an Azure DevOps Extension that adds a simple Sentry CLI Task.
+This is an Azure DevOps Extension that lets you run Sentry CLI Commands. (as [Sentry](https://marketplace.visualstudio.com/publishers/Sentry) does not provide it)
+Just use it as described in [there documentation](https://docs.sentry.io/cli/).
 
 ## How to use
 
-Just add the task to your Pipeline.
-> Add Usage
+Add the task to your Pipeline and set the command
+![Picture of Pipeline Configuration](image.png)
+
+> Attention, at the moment you have to authenticate manually beforehand ([through auth token](https://docs.sentry.io/cli/configuration/))
 
 It is utilizing [sentry-cli](https://github.com/getsentry/sentry-cli). You can either use predefined tasks or hack it your way with the freestyle task. 
 
 Provide multiple Tasks:
-
 - Create an issue to add your idea.
 
-More to come soon!
-
-
-## Contribution
-
-> Add Guide
 
 ## License
 MIT
