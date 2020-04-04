@@ -4,7 +4,7 @@
 # Sentry CLI Task for Azure Pipelines
 
 This is an Azure DevOps Extension that lets you run Sentry CLI Commands. (as [Sentry](https://marketplace.visualstudio.com/publishers/Sentry) does not provide it)
-Just use it as described in [there documentation](https://docs.sentry.io/cli/).
+Just use it as described in [their documentation](https://docs.sentry.io/cli/).
 
 ## How to use
 
