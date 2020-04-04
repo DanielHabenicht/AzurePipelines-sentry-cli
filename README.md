@@ -13,10 +13,7 @@ Add the task to your Pipeline and set the command
 
 > Attention, at the moment you have to authenticate manually beforehand ([through auth token](https://docs.sentry.io/cli/configuration/))
 
-It is utilizing [sentry-cli](https://github.com/getsentry/sentry-cli). You can either use predefined tasks or hack it your way with the freestyle task. 
-
-Provide multiple Tasks:
-- Create an issue to add your idea.
+It is utilizing [sentry-cli](https://github.com/getsentry/sentry-cli). 
 
 
 ## License
