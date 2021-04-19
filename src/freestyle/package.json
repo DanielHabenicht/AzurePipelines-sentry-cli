@@ -29,7 +29,7 @@
   "homepage": "https://github.com/DanielHabenicht/AzurePipelines-SemanticRelease#readme",
   "dependencies": {
     "@sentry/cli": "^1.49.0",
-    "azure-pipelines-task-lib": "^2.9.3"
+    "azure-pipelines-task-lib": "^2.12.2"
   },
   "devDependencies": {
     "@types/chai": "4.2.16",
