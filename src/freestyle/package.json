@@ -36,7 +36,7 @@
     "@types/mocha": "7.0.2",
     "@types/node": "13.13.52",
     "@types/q": "1.5.4",
-    "@types/shelljs": "0.8.8",
+    "@types/shelljs": "0.8.9",
     "chai": "4.3.4",
     "env-cmd": "10.1.0",
     "mocha": "7.2.0",
