@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/chai": "4.2.21",
-    "@types/mocha": "7.0.2",
+    "@types/mocha": "8.2.3",
     "@types/node": "13.13.52",
     "@types/q": "1.5.5",
     "@types/shelljs": "0.8.9",
