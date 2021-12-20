@@ -20,7 +20,7 @@
         "cross-env": "7.0.3",
         "rimraf": "3.0.2",
         "semantic-release": "17.4.7",
-        "tfx-cli": "0.9.3"
+        "tfx-cli": "0.10.0"
     },
     "release": {
         "branch": "master",
