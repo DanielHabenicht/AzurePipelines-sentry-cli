@@ -32,12 +32,12 @@
     "azure-pipelines-task-lib": "^3.0.0"
   },
   "devDependencies": {
-    "@types/chai": "4.3.11",
+    "@types/chai": "4.3.16",
     "@types/mocha": "7.0.2",
     "@types/node": "13.13.52",
     "@types/q": "1.5.8",
     "@types/shelljs": "0.8.15",
-    "chai": "4.3.10",
+    "chai": "4.4.1",
     "env-cmd": "10.1.0",
     "mocha": "9.2.2",
     "nodemon": "2.0.22",
